@@ -14,6 +14,8 @@ h1, h2, h3, h4, h5, h6{
 }
 body{
     font-family: 'Andika', sans-serif;
+    color: #42C2FF;
+    background-color: #B8FFF9;
 }
 .row {
     margin: 0;
