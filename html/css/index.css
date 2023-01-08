@@ -15,9 +15,8 @@
     margin: auto;
     height: 300px;
     width: 70%;
-    padding: 5% 3%;
-    border-radius: .375rem;
-    
+    padding: 5% 5%;
+    border-radius: .375rem; 
 }
 .form{
     position:relative;
@@ -41,4 +40,14 @@
 }
 .temp-box{
     font-size: 3rem;
+}
+.intro-btn{
+    background-color: lightgreen;
+    margin-right: 1rem;
+}
+footer{
+    color: white;
+    text-align: center;
+    padding: 3%;
+    background-color: black;
 }
