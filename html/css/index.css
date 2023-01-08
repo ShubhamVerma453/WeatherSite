@@ -1,0 +1,44 @@
+.brand-name{
+    text-align: center;
+    padding: .5rem;
+}
+.form-section{
+    background-color: lightgreen;
+    padding: 5% 0;
+}
+.intro-section{
+    background-color: lightskyblue;
+    padding: 8% 3%;
+}
+.weather-card{
+    background-color: aqua;
+    margin: auto;
+    height: 300px;
+    width: 70%;
+    padding: 5% 3%;
+    border-radius: .375rem;
+    
+}
+.form{
+    position:relative;
+}
+.submit-btn{
+    position: absolute;
+    right: 6px;
+    top: 6px;
+    background-color: lightgreen;
+    border: none;
+    border-radius: .36rem;
+    width: 25%;
+    height: 70%;
+}
+/* .display-none{
+    display: none;
+} */
+.weather-data{
+    text-align: center;
+    margin: 3%;
+}
+.temp-box{
+    font-size: 3rem;
+}
