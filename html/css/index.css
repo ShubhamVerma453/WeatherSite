@@ -1,7 +1,6 @@
 .brand-name{
     text-align: center;
     padding: .5rem;
-    height: 10vh;
 }
 .form-section{
     background-color: lightgreen;
@@ -48,7 +47,6 @@
 }
 footer{
     color: white;
-    /* height: 8vh; */
     text-align: center;
     padding: 2% 0 0 0;
     background-color: black;

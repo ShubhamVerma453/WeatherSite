@@ -5,10 +5,19 @@
 p{
     margin: 0;
 }
+a{
+    color: white;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+body{
+    font-family: 'Andika', sans-serif;
+}
 .row {
     margin: 0;
 }
-a{
-    color: white;
-    
+.normal-font{
+    font-weight: 400;
 }
