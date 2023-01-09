@@ -3,15 +3,10 @@
     padding: .5rem;
 }
 .form-section{
-    /* background-color: lightgreen; */
     padding: 5% 0;
 }
-.intro-section{
-    /* background-color: lightskyblue; */
-    padding: 8% 5% 8% 3%;
-}
 .weather-card{
-    background-color: #EFFFFD;
+    background-color: #85F4FF;
     margin: auto;
     height: 300px;
     width: 70%;
@@ -25,9 +20,7 @@
     position: absolute;
     right: 6px;
     top: 6px;
-    background-color: lightgreen;
-    border: none;
-    border-radius: .36rem;
+    padding: 0;
     width: 25%;
     height: 70%;
 }
@@ -41,8 +34,13 @@
 .temp-box{
     font-size: 3rem;
 }
+.intro-section{
+    padding: 8% 5% 8% 3%;
+}
+.intro-text{
+    margin-bottom: 2%;
+}
 .intro-btn{
-    background-color: lightgreen;
     margin-right: 1rem;
 }
 footer{
@@ -53,4 +51,23 @@ footer{
 }
 .footer-link{
     margin: .5rem;
+}
+.normal-font{
+    color: white;
+}
+
+@media (max-width:991px) {
+    .weather-card{
+        width: 50%;
+    }
+}
+@media (max-width:620px) {
+    .weather-card{
+        width: 70%;
+    }
+}
+@media (max-width:396px) {
+    .weather-card{
+        width: 90%;
+    }
 }

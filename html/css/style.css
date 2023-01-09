@@ -6,19 +6,22 @@ p{
     margin: 0;
 }
 a{
-    color: white;
+    color: #EFFFFD;
 }
 h1, h2, h3, h4, h5, h6{
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
+    color: #42C2FF;
 }
 body{
     font-family: 'Andika', sans-serif;
-    color: #42C2FF;
-    background-color: #B8FFF9;
+    background-color: #EFFFFD;
 }
 .row {
     margin: 0;
+}
+.btn{
+    background-color: #42C2FF;
 }
 .normal-font{
     font-weight: 400;
