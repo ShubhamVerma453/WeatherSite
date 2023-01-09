@@ -51,10 +51,14 @@ footer{
 }
 .footer-link{
     margin: .5rem;
+    color: #EFFFFD;
 }
 .normal-font{
     color: white;
 }
+/* a{
+    color: #EFFFFD;
+} */
 
 @media (max-width:991px) {
     .weather-card{
