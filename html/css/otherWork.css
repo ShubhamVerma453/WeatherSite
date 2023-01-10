@@ -1,0 +1,13 @@
+body{
+    padding: 2%;
+    text-align: center;
+}.repo-box{
+    height: 30vmin;
+    /* width: 30vmin; */
+    padding: 2%;
+}
+.repo{
+    background-color: aqua;
+    height: 100%;
+    border-radius: .6rem;
+}
