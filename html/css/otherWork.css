@@ -14,9 +14,13 @@ body{
     padding: 2%;
 }
 .repo{
-    background-color: aqua;
+    /* background: linear-gradient(to bottom right, #42C2FF, #B8FFF9); */
+    background-color: #85F4FF;
     height: 100%;
     border-radius: .6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (max-width:918px) {
