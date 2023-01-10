@@ -19,6 +19,7 @@ body{
 }
 .btn{
     background-color: #42C2FF;
+    margin-right: 1rem;
 }
 .normal-font{
     font-weight: 400;
