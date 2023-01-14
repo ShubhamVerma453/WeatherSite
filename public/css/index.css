@@ -27,7 +27,7 @@
 .display-none{
     display: none;
 }
-.weather-data{
+#weather-data{
     text-align: center;
     margin: 3%;
 }

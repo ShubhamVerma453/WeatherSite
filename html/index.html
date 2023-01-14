@@ -28,16 +28,16 @@
     <section class="main-section row">
         <div class="col-lg-6 col-md-12 col-sm-12 form-section">
             <div class="weather-card">
-                <form action="/" method="post" class="form">
-                    <input type="text" name="city" class="form-control input-city" placeholder="Enter City Name" autocomplete="off">
-                    <button type="submit" class="btn submit-btn">Search</button>
+                <form class="form">
+                    <input type="text" id="form-city" class="form-control input-city" placeholder="Enter City Name" autocomplete="off">
+                    <button type="submit" id="btn-submit" class="btn submit-btn">Search</button>
                 </form>
-                <div class="weather-data display-none">
+                <div id="weather-data" class="display-none">
                     <div class="city-box">
-                        <h3><span id="city">pune </span><span id="country">IN</span></h3>
+                        <h3><span id="city">city</span> <span id="country">country</span></h3>
                     </div>
                     <div class="temp-box">
-                        <div><span id="temp">25</span><sup id="deg">o</sup>C</div>
+                        <div><span id="temp">T</span><sup id="deg">o</sup>C</div>
                     </div>
                     <div class="weather-img"><img src=" http://openweathermap.org/img/wn/10d@2x.png" alt="" srcset="">
                     </div>
@@ -65,7 +65,7 @@
             <p>&copy; Shubham Verma </p>
         </div>
     </footer>
-
+<script src="script.js"></script>
 </body>
 
 </html>
