@@ -29,17 +29,18 @@
         <div class="col-lg-6 col-md-12 col-sm-12 form-section">
             <div class="weather-card">
                 <form class="form">
-                    <input type="text" id="form-city" class="form-control input-city" placeholder="Enter City Name" autocomplete="off">
+                    <input type="text" id="form-city" class="form-control input-city" placeholder="Enter City Name"
+                        autocomplete="off">
                     <button type="submit" id="btn-submit" class="btn submit-btn">Search</button>
                 </form>
-                <div id="weather-data" class="display-none">
-                    <div class="city-box">
-                        <h3><span id="city">city</span> <span id="country">country</span></h3>
-                    </div>
-                    <div class="temp-box">
+                <div id="weather-data">
+                <div class="city-box">
+                    <h3><span id="city"></span> <span id="country"></span></h3>
+                </div>
+                    <div id="temp-box"  class="display-none">
                         <div><span id="temp">T</span><sup id="deg">o</sup>C</div>
                     </div>
-                    <div class="weather-img"><img src=" http://openweathermap.org/img/wn/10d@2x.png" alt="" srcset="">
+                    <div id="weather-img"  class="display-none"><img id="img" src=" http://openweathermap.org/img/wn/10d@2x.png">
                     </div>
                 </div>
             </div>
@@ -47,7 +48,8 @@
         </div>
         <div class="col-lg-6 col-md-12 col-sm-12 intro-section">
             <h2>Always Ready for Every Weather</h2>
-            <p class="intro-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, dicta repudiandae. Nobis quia officiis
+            <p class="intro-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores, dicta repudiandae.
+                Nobis quia officiis
                 iusto officia iste ad distinctio voluptatem?</p>
             <a class="btn intro-btn" href="/about">about me</a>
             <a class="btn intro-btn" href="/project">my projects</a>
@@ -57,15 +59,18 @@
     <footer>
         <h5 class="normal-font">Follow us on</h5>
         <div class="social-box">
-            <a href="https://www.facebook.com/profile.php?id=100048088822876" target="_blank" class="footer-link"><i class="fa-brands fa-facebook fa-xl"></i></a>
-            <a href="https://www.instagram.com/shubham._.verma._/" target="_blank" class="footer-link"><i class="fa-brands fa-square-instagram fa-xl"></i></a>
-            <a href="https://www.linkedin.com/in/shubhamverma5646" target="_blank" class="footer-link"><i class="fa-brands fa-linkedin fa-xl"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100048088822876" target="_blank" class="footer-link"><i
+                    class="fa-brands fa-facebook fa-xl"></i></a>
+            <a href="https://www.instagram.com/shubham._.verma._/" target="_blank" class="footer-link"><i
+                    class="fa-brands fa-square-instagram fa-xl"></i></a>
+            <a href="https://www.linkedin.com/in/shubhamverma5646" target="_blank" class="footer-link"><i
+                    class="fa-brands fa-linkedin fa-xl"></i></a>
         </div>
         <div>
             <p>&copy; Shubham Verma </p>
         </div>
     </footer>
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
